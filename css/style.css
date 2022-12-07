@@ -8,10 +8,11 @@
     --piepagina:#000;
     --enlace:#fff;
     --enlaceSobre:#e2752c;
-    --fondo:url('../images/background.jpg');
+    --fondo:url('../images/background.jpg'); margin-top: 0;
 
 
 }
+
 
 /* selector universal (*) */
 *{
@@ -31,13 +32,13 @@ header{
     width: 100%;
     background-color:var(--encabezado);
     position: fixed;
-    padding: 10px 0;
+    padding: 5px ;
 }
 
 /* combinación de selectores de etiqueta en css */
 header nav{
     float: right;
-    margin-top: 8px;
+    margin-top: 10px;
 }
 
 header img{
